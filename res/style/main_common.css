@@ -1,0 +1,22 @@
+.image_thumb_re {
+	/*background-color: #FFFFA0;*/
+	float: none;
+	/*cursor: pointer;*/
+	border: 1px dotted #3366ff;
+}
+a {
+	text-decoration: none;
+}
+
+.msgNum {
+	color: #3366ff;
+	font-family: Trebuchet MS,sans; 
+}
+
+.my { 
+	color : red; 
+} 
+
+.reply {
+	color: #ff6600;
+}

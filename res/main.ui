@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string notr="true"/>
+  </property>
+  <property name="statusTip">
+   <string notr="true"/>
+  </property>
+  <property name="whatsThis">
+   <string notr="true"/>
+  </property>
+  <property name="windowFilePath">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleName" stdset="0">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleDescription" stdset="0">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_Top" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QToolButton" name="Button_NewTab">
+         <property name="text">
+          <string>New Tab</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButton_Clear"/>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButton_2"/>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>657</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="chat_tabs">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="action_SwitchMiniStyle">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res_.qrc">
+     <normaloff>:/res/Images/application.png</normaloff>:/res/Images/application.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mini Style</string>
+   </property>
+   <property name="shortcut">
+    <string>F11</string>
+   </property>
+  </action>
+  <action name="action_App_quit">
+   <property name="icon">
+    <iconset resource="../res_.qrc">
+     <normaloff>:/res/Images/cancel.png</normaloff>:/res/Images/cancel.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_ShowPopup">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res_.qrc">
+     <normaloff>:/res/Images/mail-unread-new.png</normaloff>:/res/Images/mail-unread-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Popup</string>
+   </property>
+  </action>
+  <action name="action_HideToTray">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res_.qrc">
+     <normaloff>:/res/Images/arrow-270.png</normaloff>:/res/Images/arrow-270.png</iconset>
+   </property>
+   <property name="text">
+    <string>Hide to tray</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+H</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../res_.qrc"/>
+ </resources>
+ <connections/>
+</ui>

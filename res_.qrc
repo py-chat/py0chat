@@ -1,0 +1,34 @@
+<RCC>
+  <qresource>
+    <file>res/Images/application.png</file>
+    <file>res/Images/arrow-270.png</file>
+    <file>res/Images/0chan.ru.ico</file>
+    <file>res/Images/advanced.png</file>
+    <file>res/Images/apply.png</file>
+    <file>res/Images/background.png</file>
+    <file>res/Images/cancel.png</file>
+    <file>res/Images/clear.png</file>
+    <file>res/Images/command.png</file>
+    <file>res/Images/favicon_02.png</file>
+    <file>res/Images/gstreamer-properties.svg</file>
+    <file>res/Images/Icon.ico</file>
+    <file>res/Images/icon_16.png</file>
+    <file>res/Images/icon_32.png</file>
+    <file>res/Images/icon_64.png</file>
+    <file>res/Images/icon_128.ico</file>
+    <file>res/Images/icon_128.png</file>
+    <file>res/Images/icon_128_ED.ico</file>
+    <file>res/Images/icon_128_ED.png</file>
+    <file>res/Images/key_enter.png</file>
+    <file>res/Images/log.png</file>
+    <file>res/Images/mail-unread-new.png</file>
+    <file>res/Images/message.png</file>
+    <file>res/Images/preferences-desktop-sound.svg</file>
+    <file>res/Images/py-chat.tk.ico</file>
+    <file>res/Images/remove.png</file>
+    <file>res/Images/settings.png</file>
+    <file>res/Images/sound_on_off.png</file>
+    <file>res/Images/translate.png</file>
+    <file>res/Images/wink.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+#-*-coding: utf-8 -*-
+'''
+Created on 04.03.2011
+
+@author: anon
+'''
+from lib import Plugin
+ 
+class HelloPlugin(Plugin): # производим наш плагин от родительского класса
+    Name = 'Sound Event Play'
+ 
+    # замещаем нужные методы
+    def OnLoad(self):
+        pass
+ 
+    def OnCommand(self, cmd_args):
+        return
+        if (cmd == 'hello' and len(args)> 0):
+            print 'It\'s', args[ 0], '!\nJeez, man, nice to meet you!'
+            return True
+        else:
+            return False
